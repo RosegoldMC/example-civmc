@@ -1,0 +1,13 @@
+name: example-civmc
+version: 0.2.0
+crystal: ">= 1.19.1"
+license: MIT
+
+targets:
+  bot:
+    main: src/bot.cr
+
+dependencies:
+  rosegold-civmc:
+    github: RosegoldMC/civmc.cr
+    version: ~> 0.2.0

@@ -1,0 +1,7 @@
+/lib/
+/bin/
+/.shards/
+/shard.lock
+.env
+accounts.json
+*.log
